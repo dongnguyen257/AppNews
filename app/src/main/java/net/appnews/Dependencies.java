@@ -37,6 +37,10 @@ public class Dependencies extends BaseDependencies{
         }
     }
 
+    public static ServerAPI getServerAPI() {
+        return serverAPI;
+    }
+
     private ServerAPI provideRestApi(@NonNull OkHttpClient okHttpClient) {
         Gson gson = new GsonBuilder().excludeFieldsWithModifiers(Modifier.FINAL, Modifier.TRANSIENT, Modifier.STATIC).create();
         final Retrofit.Builder builder = new Retrofit.Builder()

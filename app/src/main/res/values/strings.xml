@@ -18,4 +18,6 @@
         <item>News 4</item>
     </string-array>
 
+    <string name="internet_off_status">Yikes, you don't seem to be connected to the internet. Please connect and comback.</string>
+
 </resources>

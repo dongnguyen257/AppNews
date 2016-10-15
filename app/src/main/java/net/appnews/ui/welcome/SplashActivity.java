@@ -19,6 +19,7 @@ public class SplashActivity extends BaseActivity {
         final Handler handler = new Handler();
         handler.postDelayed(() ->{
             Navigator.openMainActivity(this);
+            finish();
         }, 2000);
     }
 
