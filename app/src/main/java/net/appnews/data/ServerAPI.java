@@ -34,5 +34,5 @@ public interface ServerAPI {
     @POST("/device/gcm/")
     @FormUrlEncoded
     Observable<DeviceToken> postDeviceToken(@Field("name") String name,
-                                            @Field("registration_id") String token);
+                                            @Field("registration_id") String token, @Field("active") boolean active);
 }

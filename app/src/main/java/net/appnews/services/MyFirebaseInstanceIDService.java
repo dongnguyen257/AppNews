@@ -42,7 +42,7 @@ public class MyFirebaseInstanceIDService extends FirebaseInstanceIdService {
     private void sendRegistrationToServer(final String token) {
         // sending gcm token to server
         Log.e(TAG, "sendRegistrationToServer: " + token);
-        Dependencies.getServerAPI().postDeviceToken(Build.DEVICE, token)
+        Dependencies.getServerAPI().postDeviceToken(Build.DEVICE, token, true)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(postDeviceTokenResponse -> {
