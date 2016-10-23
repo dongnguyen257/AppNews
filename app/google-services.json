@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "378022411857",
+    "firebase_url": "https://apptvfb.firebaseio.com",
+    "project_id": "apptvfb",
+    "storage_bucket": "apptvfb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378022411857:android:974b61ba42a0227e",
+        "android_client_info": {
+          "package_name": "net.appnews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378022411857-1dgvc225mn0vi4st2qm6tlc3jh8fttk2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyJiAeEqc3jqAuCw7HJD5QCWkCTNPvcYQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

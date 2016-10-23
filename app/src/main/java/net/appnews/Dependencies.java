@@ -44,7 +44,7 @@ public class Dependencies extends BaseDependencies{
     private ServerAPI provideRestApi(@NonNull OkHttpClient okHttpClient) {
         Gson gson = new GsonBuilder().excludeFieldsWithModifiers(Modifier.FINAL, Modifier.TRANSIENT, Modifier.STATIC).create();
         final Retrofit.Builder builder = new Retrofit.Builder()
-                .baseUrl("https://sky-red-api.herokuapp.com/")
+                .baseUrl("https://tvfb-app.herokuapp.com")
                 .client(okHttpClient)
                 .addConverterFactory(GsonConverterFactory.create(gson))
                 .addCallAdapterFactory(RxJavaCallAdapterFactory.create());
@@ -54,8 +54,8 @@ public class Dependencies extends BaseDependencies{
     @Override
     protected HashMap<String, String> getHeaders() {
         HashMap<String, String> headers = new HashMap<>();
-        headers.put("Authorization", "Bearer 4lYD4MHCsIjr7HVGXMjcB7xubqiIqw");
-        headers.put("Accept", "*/*");
+//        headers.put("Authorization", "Bearer 4lYD4MHCsIjr7HVGXMjcB7xubqiIqw");
+//        headers.put("Accept", "*/*");
         return headers;
     }
 }

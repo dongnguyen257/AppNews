@@ -4,21 +4,45 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_3d_rotation_red_a400_24dp"
-            android:title="@string/menu_news_one" />
+            android:title="@string/menu_news_home"
+            android:icon="@drawable/news"/>
         <item
-            android:id="@+id/nav_photos"
-            android:icon="@drawable/ic_3d_rotation_red_a400_24dp"
-            android:title="@string/menu_news_two" />
-        <item
-            android:id="@+id/nav_movies"
-            android:icon="@drawable/ic_3d_rotation_red_a400_24dp"
-            android:title="@string/menu_news_three" />
 
+            android:id="@+id/nav_society"
+            android:title="@string/menu_news_society"
+            android:icon="@drawable/global"/>
         <item
-            android:id="@+id/nav_notifications"
-            android:icon="@drawable/ic_3d_rotation_red_a400_24dp"
-            android:title="@string/menu_news_four" />
+            android:id="@+id/nav_business"
+            android:title="@string/menu_news_business"
+            android:icon="@drawable/business"/>
+        <item
+            android:id="@+id/nav_health"
+            android:title="@string/menu_news_health"
+            android:icon="@drawable/health"/>
+        <item
+            android:id="@+id/nav_edu"
+            android:title="@string/menu_news_edu"
+            android:icon="@drawable/book"/>
+        <item
+            android:id="@+id/nav_arts"
+            android:title="@string/menu_news_arts"
+            android:icon="@drawable/culture"/>
+        <item
+            android:id="@+id/nav_sports"
+            android:title="@string/menu_news_sports"
+            android:icon="@drawable/sports"/>
+        <item
+            android:id="@+id/nav_world"
+            android:title="@string/menu_news_world"
+            android:icon="@drawable/world"/>
+        <item
+            android:id="@+id/nav_tech"
+            android:title="@string/menu_news_tech"
+            android:icon="@drawable/tech"/>
+        <item
+            android:id="@+id/nav_travel"
+            android:title="@string/menu_news_travel"
+            android:icon="@drawable/travel"/>
     </group>
 
 </menu>

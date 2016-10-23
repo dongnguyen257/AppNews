@@ -13,7 +13,13 @@ import android.os.Build;
 import android.os.Handler;
 import android.provider.MediaStore;
 import android.util.LruCache;
+import android.view.View;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
+
+import com.squareup.picasso.Picasso;
+
+import net.appnews.R;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -411,5 +417,17 @@ public class ImageWorker {
                     photoLoad.callback.callback(drawable);
             }
         }
+    }
+
+    public static void displayImage(Context context, ImageView imageView, ProgressBar progressBar, String path) {
+        if (progressBar != null) {
+            progressBar.setVisibility(View.VISIBLE);
+        }
+
+        Picasso.with(context).load(path)
+                .placeholder(R.color.colorAccent)
+                .error(R.drawable.banerfull)
+                .fit().centerCrop()
+                .into(imageView, new PicassoListener(imageView, progressBar));
     }
 }

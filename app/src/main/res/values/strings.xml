@@ -1,23 +1,35 @@
 <resources>
-    <string name="app_name">AppNews</string>
+    <string name="app_name">TVFB</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="openDrawer">open_drawer</string>
     <string name="closeDrawer">close_drawer</string>
 
-    <string name="menu_news_one">News One</string>
-    <string name="menu_news_two">News Two</string>
-    <string name="menu_news_three">News Three</string>
-    <string name="menu_news_four">News Four</string>
+    <string name="menu_news_home">News</string>
+    <string name="menu_news_society">Society</string>
+    <string name="menu_news_business">Business</string>
+    <string name="menu_news_health">Health</string>
+    <string name="menu_news_edu">Edu/Youth</string>
+    <string name="menu_news_arts">Arts &amp; Culture</string>
+    <string name="menu_news_sports">Sports</string>
+    <string name="menu_news_world">World</string>
+    <string name="menu_news_tech">Tech</string>
+    <string name="menu_news_travel">Travel</string>
 
     <string-array name="nav_item_activity_titles">
-        <item>News 1</item>
-        <item>News 2</item>
-        <item>News 3</item>
-        <item>News 4</item>
+        <item>News</item>
+        <item>Society</item>
+        <item>Business</item>
+        <item>Health</item>
+        <item>Edu/Youth</item>
+        <item>Arts &amp; Culture</item>
+        <item>Sports</item>
+        <item>World</item>
+        <item>Tech</item>
+        <item>Travel</item>
     </string-array>
 
-    <string name="internet_off_status">Yikes, you don't seem to be connected to the internet. Please connect and comback.</string>
-
+    <string name="internet_off_status">Yikes, you don\'t seem to be connected to the internet. Please connect and come back.</string>
+    <string name="message_loading">Loading...</string>
 </resources>
