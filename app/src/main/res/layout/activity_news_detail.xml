@@ -30,7 +30,7 @@
             android:text="Title"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:textColor="@color/colorTextTitle"/>
+            android:textColor="@color/colorRed600"/>
 
         <TextView
             android:id="@+id/tvDatePost"
@@ -39,27 +39,14 @@
             android:gravity="end"
             android:padding="5dp"
             android:text="Date"
+            android:textStyle="italic"
             android:textSize="14sp"
             android:textColor="@color/colorGrey"/>
 
-        <LinearLayout
-            android:id="@+id/llListImages"
+        <View
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="10dp"
-            android:layout_marginLeft="10dp"
-            android:orientation="vertical">
-
-        </LinearLayout>
-
-        <ImageView
-            android:id="@+id/ivNews"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
-            android:scaleType="centerInside"
-            android:background="@drawable/banerfull"/>
+            android:layout_height="1dp"
+            android:background="@color/colorGrey"/>
 
         <TextView
             android:id="@+id/tvContent"
@@ -76,6 +63,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="5dp" />
-    </LinearLayout>
 
+        <LinearLayout
+            android:id="@+id/llListImages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        </LinearLayout>
+    </LinearLayout>
 </ScrollView>

@@ -20,6 +20,7 @@ import net.appnews.data.entities.NewsItem;
 import net.appnews.support.image.ImageWorker;
 import net.appnews.ui.base.BaseActivity;
 import net.appnews.ui.media.YoutubeHelper;
+import net.appnews.utils.Utils;
 
 import java.util.ArrayList;
 import java.util.regex.Matcher;
@@ -27,7 +28,7 @@ import java.util.regex.Pattern;
 
 import butterknife.BindView;
 
-public class NewsDetailActivity extends BaseActivity implements NewsDetailPresent.View{
+public class NewsDetailActivity extends BaseActivity implements NewsDetailPresent.View, View.OnClickListener{
 
     @BindView(R.id.scrollNews)
     ScrollView scrollNews;
@@ -37,8 +38,6 @@ public class NewsDetailActivity extends BaseActivity implements NewsDetailPresen
     LinearLayout llNewsDetail;
     @BindView(R.id.llListImages)
     LinearLayout llListImages;
-    @BindView(R.id.ivNews)
-    ImageView ivNews;
     @BindView(R.id.tvTitle)
     TextView tvTitle;
     @BindView(R.id.tvDatePost)
@@ -53,6 +52,7 @@ public class NewsDetailActivity extends BaseActivity implements NewsDetailPresen
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
         setContentView(R.layout.activity_news_detail);
         this.getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         mNewsDetailPresent = new NewsDetailPresent();
@@ -66,7 +66,8 @@ public class NewsDetailActivity extends BaseActivity implements NewsDetailPresen
         int id = item.getItemId();
 
         if (id == android.R.id.home) {
-            onBackPressed();
+            finish();
+            overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
             return true;
         }
 
@@ -95,7 +96,7 @@ public class NewsDetailActivity extends BaseActivity implements NewsDetailPresen
 //        }
         setViewImages();
         tvTitle.setText(Html.fromHtml(newsDetail.title));
-        tvDatePost.setText(Html.fromHtml(newsDetail.created_at));
+        tvDatePost.setText(Utils.getTimeZone(newsDetail.created_at));
         wvContent.getSettings().setJavaScriptEnabled(true);
         wvContent.loadDataWithBaseURL(null, newsDetail.content, "text/html", "utf-8", null);
 
@@ -139,5 +140,10 @@ public class NewsDetailActivity extends BaseActivity implements NewsDetailPresen
     @Override
     public Context getContext() {
         return null;
+    }
+
+    @Override
+    public void onClick(View view) {
+
     }
 }

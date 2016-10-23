@@ -13,6 +13,7 @@ import net.appnews.R;
 import net.appnews.data.entities.NewsItem;
 import net.appnews.ui.base.BaseAdapter;
 import net.appnews.ui.base.BaseHolder;
+import net.appnews.utils.Utils;
 
 import java.util.List;
 
@@ -65,9 +66,7 @@ public class NewsFragmentAdapter extends BaseAdapter<NewsItem.Results, NewsFragm
             if (data != null){
                 tvTitle.setText(Html.fromHtml(data.title));
                 tvContent.setText(Html.fromHtml(data.content));
-                tvDatePost.setText(data.created_at);
-                //if (listener != null)
-                // listener.showImage(imageUrls[position], iv_Activity);
+                tvDatePost.setText(Utils.getTimeZone(data.created_at));
                 card_view.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {

@@ -16,197 +16,8 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="f32611b8978858544cdb468dc11bb98a402a8a22">
+        sha1="595774cc762ebd91eeccb54a7147424dbb803e22">
         <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a91955d65aa9321bd9ee990a9821abed356eaf1d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_39a2f01ae3e53eca8103ea4ff5c750a6a22e64bc/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-annotations-8.4.0_31eb1ac07aba740882842646159f0d7c21dd5eb7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="0efd1b44f47c134fb245914a1d54a55adbfc2f8d">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.6.1_8c1704666887c3e4b66951a0f52f22a356d93146/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.9.0_8cef8a87db98396277df1d86c1ffcd8632557e2d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_5f9f048e9be10738266bef089b1e01c571e28f45/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_df0c958266d8fff97916d7aa312df4b8ae66af79/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_5e645145baaf3ea5573e43961054f863a51b5143/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.6/2586312cd2b8a511e4c6236736f5a039fc0f2273/rxjava-1.1.6.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/rxjava-1.1.6_4587c6fc62d3bceebb14141ec37e412f39600009/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.1_57d367aefa9691ca18e87dd4ba40f33e68c237f3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.6.1_3a8ed1318679b9dc0f79bc345efd283b767a172c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_bed893c0edf9253910c563a7b1ffa1c61900e4fb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_2ffac2cf7463e95bdd4649d815512abf214a1fec/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_5adaf92bb8887293b44534b0731615c7d0445ca3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_cef46f2b2a1caa1ffcb6ae45fb7237acc9e0dbcf/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.1.0/693eddc23e87ab13f9cf5001707ce8e7e1d1ff01/adapter-rxjava-2.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="693eddc23e87ab13f9cf5001707ce8e7e1d1ff01">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/adapter-rxjava-2.1.0_a2c05a4aacfcca619eab5927cbffa0f675274fe1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.4.1/381fc1096ba65040d8e80ea43b2e1d9bad02345e/logging-interceptor-3.4.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="381fc1096ba65040d8e80ea43b2e1d9bad02345e">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/logging-interceptor-3.4.1_08ec7cc557e90e05d22e881855aeb30453503911/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_1cc42390cce46723802a2cdaec044be21defd13b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MAC/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_64fcaf965041d39acdaa6b293e04eb8f8bdcde0a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="a1c351dc10b92d638da57f3a6513f87cfbdc9f83">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.6.1_0fe36f110686dee0e265689a38e1518dcb827f79/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_f0b77d02bf0436f5957780ce1691964e073d4613/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.1_f1b0ad3a899070f840c3d2ef409f1d1c6cd17ee1/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -219,12 +30,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_39a2f01ae3e53eca8103ea4ff5c750a6a22e64bc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
         <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.reactivex-rxandroid-1.2.1_79a454c58dbc4a9b26b51441c1cb4e879449055c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-annotations-8.4.0_31eb1ac07aba740882842646159f0d7c21dd5eb7/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -243,6 +72,15 @@
         revision="24.0.2"
         sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
         <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_cd54d205353c1ef32918b99f913fba4d0f50ae69/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0efd1b44f47c134fb245914a1d54a55adbfc2f8d">
+        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.6.1_8c1704666887c3e4b66951a0f52f22a356d93146/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -282,12 +120,48 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/it.sephiroth.android.library.imagezoom/imagezoom/2.2.5/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="406557a6f4369568e5515f8a3c66c97b23f21534">
+        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/it.sephiroth.android.library.imagezoom-imagezoom-2.2.5_6a9f9b080a62b6aed948a92ac03644cd1c831e6c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.9.0_8cef8a87db98396277df1d86c1ffcd8632557e2d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_5f9f048e9be10738266bef089b1e01c571e28f45/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
         <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_e0f473b40a37f097106185e3fef5253b69b1e922/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_df0c958266d8fff97916d7aa312df4b8ae66af79/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -306,6 +180,42 @@
         revision="24.0.2"
         sha1="1e14ebe1cda8491f152083e752ca5bf73cd37bff">
         <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.6.1_facae5ecc4eb73200209f534d7d11d684200a900/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_5e645145baaf3ea5573e43961054f863a51b5143/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.6/2586312cd2b8a511e4c6236736f5a039fc0f2273/rxjava-1.1.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
+        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/rxjava-1.1.6_4587c6fc62d3bceebb14141ec37e412f39600009/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.1_57d367aefa9691ca18e87dd4ba40f33e68c237f3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
+        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.6.1_3a8ed1318679b9dc0f79bc345efd283b767a172c/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -336,12 +246,57 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_bed893c0edf9253910c563a7b1ffa1c61900e4fb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/MAC/Desktop/My Project/AppNews/app/libs/YouTubeAndroidPlayerApi.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
         <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/2/YouTubeAndroidPlayerApi_c6b522a1ac0f31d335d62747c178eab114b7d5d5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_2ffac2cf7463e95bdd4649d815512abf214a1fec/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_5adaf92bb8887293b44534b0731615c7d0445ca3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_cef46f2b2a1caa1ffcb6ae45fb7237acc9e0dbcf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.1.0/693eddc23e87ab13f9cf5001707ce8e7e1d1ff01/adapter-rxjava-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="693eddc23e87ab13f9cf5001707ce8e7e1d1ff01">
+        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/adapter-rxjava-2.1.0_a2c05a4aacfcca619eab5927cbffa0f675274fe1/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -354,6 +309,42 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.4.1/381fc1096ba65040d8e80ea43b2e1d9bad02345e/logging-interceptor-3.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="381fc1096ba65040d8e80ea43b2e1d9bad02345e">
+        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/logging-interceptor-3.4.1_08ec7cc557e90e05d22e881855aeb30453503911/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_1cc42390cce46723802a2cdaec044be21defd13b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MAC/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_64fcaf965041d39acdaa6b293e04eb8f8bdcde0a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a1c351dc10b92d638da57f3a6513f87cfbdc9f83">
+        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.6.1_0fe36f110686dee0e265689a38e1518dcb827f79/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.6.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -363,12 +354,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_f0b77d02bf0436f5957780ce1691964e073d4613/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
         <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.4.1_c3a0165ce7f0ff0eae32d4ade69274d3d9c7c872/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.1_f1b0ad3a899070f840c3d2ef409f1d1c6cd17ee1/classes.dex" />
     </item>
 
 </items>
