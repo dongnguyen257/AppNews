@@ -53,7 +53,7 @@
                     android:layout_marginTop="1dp"
                     android:layout_marginLeft="3dp"
                     android:scaleType="centerInside"
-                    android:background="@drawable/icon_item_news"/>
+                    android:background="@drawable/news"/>
 
                 <TextView
                     android:id="@+id/tvDatePost"
@@ -73,7 +73,7 @@
 
                     android:scaleType="centerInside"
                     android:layout_centerVertical="true"
-                    android:background="@drawable/icon_read_more"/>
+                    android:background="@drawable/read_more"/>
 
             </RelativeLayout>
 

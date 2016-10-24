@@ -67,12 +67,7 @@ public class NewsFragmentAdapter extends BaseAdapter<NewsItem.Results, NewsFragm
                 tvTitle.setText(Html.fromHtml(data.title));
                 tvContent.setText(Html.fromHtml(data.content));
                 tvDatePost.setText(Utils.getTimeZone(data.created_at));
-                card_view.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        listener.showNewsDetail(data);
-                    }
-                });
+                card_view.setOnClickListener(view -> listener.showNewsDetail(data));
             }
         }
     }

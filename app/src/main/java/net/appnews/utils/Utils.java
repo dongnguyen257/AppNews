@@ -14,7 +14,7 @@ public class Utils {
     public static String getTimeZone(String time){
         //convert time fortmat
         final String OLD_FORMAT = "yyyy-MM-dd HH:mm:ss";
-        final String NEW_FORMAT = "MMM d, h:mm a";
+        final String NEW_FORMAT = "d MMM yyyy HH:mm";
         String oldDateString = time;
         String newDateString;
         SimpleDateFormat sdf = new SimpleDateFormat(OLD_FORMAT);
@@ -27,7 +27,7 @@ public class Utils {
         sdf.applyPattern(NEW_FORMAT);
         newDateString = sdf.format(d);
         //
-        SimpleDateFormat df = new SimpleDateFormat("MMM d, h:mm a");
+        SimpleDateFormat df = new SimpleDateFormat("d MMM yyyy HH:mm");
         df.setTimeZone(TimeZone.getTimeZone("UTC"));
         Date date = null;
         try {

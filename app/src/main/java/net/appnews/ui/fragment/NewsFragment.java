@@ -73,7 +73,6 @@ public class NewsFragment extends BaseFragment implements NewsFragmentPresenter.
                 this, R.layout.image_loading, false);
         recyclerNews.setAdapter(mEndlessRecyclerViewAdapter);
         recyclerNews.setLayoutManager(new LinearLayoutManager(getContext(), VERTICAL, false));
-//        recyclerNews.addOnScrollListener(new SwipeRefreshLayoutToggleScrollListener(swipeContainer));
         swipeContainer.setOnRefreshListener(this);
         swipeContainer.setColorSchemeResources(R.color.colorRed600);
     }
