@@ -94,7 +94,7 @@ public class NewsDetailActivity extends BaseActivity implements NewsDetailPresen
 //            Picasso.with(this).load("https://lh4.googleusercontent.com/--dq8niRp7W4/URquVgmXvgI/AAAAAAAAAbs/-gnuLQfNnBA/s1024/A%252520Song%252520of%252520Ice%252520and%252520Fire.jpg")
 //                    .fit().centerCrop().priority(Picasso.Priority.LOW).into(ivNews);
 //        }
-        setViewImages();
+//        setViewImages();
         tvTitle.setText(Html.fromHtml(newsDetail.title));
         tvDatePost.setText(Utils.getTimeZone(newsDetail.created_at));
         wvContent.getSettings().setJavaScriptEnabled(true);
