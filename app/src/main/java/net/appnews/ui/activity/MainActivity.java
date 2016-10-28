@@ -11,11 +11,14 @@ import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.content.LocalBroadcastManager;
+import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.google.firebase.messaging.FirebaseMessaging;
 
@@ -27,6 +30,7 @@ import net.appnews.ui.fragment.NewsFragment;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 public class MainActivity extends BaseActivity {
 
@@ -36,14 +40,22 @@ public class MainActivity extends BaseActivity {
     DrawerLayout drawer;
     @BindView(R.id.toolbar)
     Toolbar toolbar;
+    @BindView(R.id.tvTitle)
+    TextView tvTitle;
+    @BindView(R.id.ivMenu)
+    ImageView ivMenu;
 
     public static int navItemIndex = 0;
 
+    private static final String TAG_ZERO = "zero";
     private static final String TAG_ONE = "one";
     private static final String TAG_TWO = "two";
     private static final String TAG_THREE = "three";
     private static final String TAG_FOUR = "four";
-    public static String CURRENT_TAG = TAG_ONE;
+    private static final String TAG_FIRE = "fire";
+    private static final String TAG_SIX = "six";
+    private static final String TAG_SEVEN = "seven";
+    public static String CURRENT_TAG = TAG_ZERO;
 
     private String[] activityTitles;
     private boolean shouldLoadHomeFragOnBackPress = true;
@@ -63,7 +75,7 @@ public class MainActivity extends BaseActivity {
 
         if (savedInstanceState == null) {
             navItemIndex = 0;
-            CURRENT_TAG = TAG_ONE;
+            CURRENT_TAG = TAG_ZERO;
             loadNewsOneFragment();
         }
 
@@ -140,7 +152,12 @@ public class MainActivity extends BaseActivity {
     }
 
     private void setToolbarTitle() {
-        getSupportActionBar().setTitle(activityTitles[navItemIndex]);
+        tvTitle.setText(activityTitles[navItemIndex]);
+    }
+
+    @OnClick(R.id.ivMenu)
+    public void onMenuClick() {
+        drawer.openDrawer(GravityCompat.START);
     }
 
     private void selectNavMenu() {
@@ -153,19 +170,19 @@ public class MainActivity extends BaseActivity {
             switch (menuItem.getItemId()) {
                 case R.id.nav_home:
                     navItemIndex = 0;
-                    CURRENT_TAG = TAG_ONE;
+                    CURRENT_TAG = TAG_ZERO;
                     break;
                 case R.id.nav_world:
                     navItemIndex = 1;
-                    CURRENT_TAG = TAG_TWO;
+                    CURRENT_TAG = TAG_ONE;
                     break;
                 case R.id.nav_society:
                     navItemIndex = 2;
-                    CURRENT_TAG = TAG_THREE;
+                    CURRENT_TAG = TAG_TWO;
                     break;
                 case R.id.nav_policy:
                     navItemIndex = 3;
-                    CURRENT_TAG = TAG_FOUR;
+                    CURRENT_TAG = TAG_THREE;
                     break;
                 case R.id.nav_arts:
                     navItemIndex = 4;
@@ -173,15 +190,15 @@ public class MainActivity extends BaseActivity {
                     break;
                 case R.id.nav_sport:
                     navItemIndex = 5;
-                    CURRENT_TAG = TAG_FOUR;
+                    CURRENT_TAG = TAG_FIRE;
                     break;
                 case R.id.nav_travel:
                     navItemIndex = 6;
-                    CURRENT_TAG = TAG_FOUR;
+                    CURRENT_TAG = TAG_SIX;
                     break;
                 case R.id.nav_health:
                     navItemIndex = 7;
-                    CURRENT_TAG = TAG_FOUR;
+                    CURRENT_TAG = TAG_SEVEN;
                     break;
                 default:
                     navItemIndex = 0;
@@ -213,6 +230,7 @@ public class MainActivity extends BaseActivity {
         };
 
         drawer.setDrawerListener(actionBarDrawerToggle);
+        actionBarDrawerToggle.setDrawerIndicatorEnabled(false);
         actionBarDrawerToggle.syncState();
     }
 

@@ -16,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="57b849af20a92ca733f9a81aac14d2b7867d3fa4">
+        sha1="c42bcc720a6c3d1648ecd7e3588da1e11980e280">
         <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a91955d65aa9321bd9ee990a9821abed356eaf1d/classes.dex" />
     </item>
     <item
@@ -331,7 +331,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="c55413fd0394923e088ce48c878e233b521dcb8e">
+        sha1="a07f2803d0cdf66fa78b2a4afa3f4956ddbcd95b">
         <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_881a86f7d1bc862427b895a8325e3af207271e0a/classes.dex" />
     </item>
     <item
