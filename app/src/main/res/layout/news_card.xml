@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/card_margin"
+        android:elevation="3dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Title"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:lines="3"
+                android:ellipsize="end"
+                android:textColor="@color/colorRed600"/>
+
+            <TextView
+                android:id="@+id/tvContent"
+                android:layout_below="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:lines="1"
+                android:ellipsize="end"
+                android:text="Content"
+                android:textSize="14sp"
+                android:textColor="@color/colorTextContent"/>
+
+            <RelativeLayout
+                android:layout_below="@+id/tvContent"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/colorGreyS">
+
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginLeft="3dp"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/icon_app"/>
+
+                <TextView
+                    android:id="@+id/tvDatePost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/logo"
+                    android:layout_marginLeft="10sp"
+                    android:layout_centerVertical="true"
+                    android:text="Date post : 15/10/2016"/>
+
+                <ImageView
+                    android:id="@+id/btnRead"
+                    android:layout_width="70dp"
+                    android:layout_height="25dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_alignParentRight="true"
+
+                    android:scaleType="centerInside"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/read_more"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

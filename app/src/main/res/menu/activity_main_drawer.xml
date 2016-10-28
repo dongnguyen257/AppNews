@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/menu_news_home"
+            android:icon="@drawable/news"/>
+        <item
+            android:id="@+id/nav_world"
+            android:title="@string/menu_news_world"
+            android:icon="@drawable/world"/>
+        <item
+            android:id="@+id/nav_society"
+            android:title="@string/menu_news_society"
+            android:icon="@drawable/global"/>
+        <item
+            android:id="@+id/nav_policy"
+            android:title="@string/menu_news_policy"
+            android:icon="@drawable/book"/>
+        <item
+            android:id="@+id/nav_arts"
+            android:title="@string/menu_news_arts"
+            android:icon="@drawable/culture"/>
+        <item
+            android:id="@+id/nav_sport"
+            android:title="@string/menu_news_sport"
+            android:icon="@drawable/sports"/>
+        <item
+            android:id="@+id/nav_travel"
+            android:title="@string/menu_news_travel"
+            android:icon="@drawable/travel"/>
+        <item
+            android:id="@+id/nav_health"
+            android:title="@string/menu_news_health"
+            android:icon="@drawable/health"/>
+    </group>
+
+</menu>
