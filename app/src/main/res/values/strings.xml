@@ -42,6 +42,7 @@
         <item>សុខភាព</item>
     </string-array>
 
-    <string name="internet_off_status">Yikes, you don\'t seem to be connected to the internet. Please connect and come back.</string>
-    <string name="message_loading">Loading...</string>
+    <string name="internet_off_status">ប្រព័ន្ធអុីនធឺណេតត្រូវបានផ្ដាច់! សូមព្យាយាមម្តងទៀត !!</string>
+    <string name="not_found">គ្មានទិន្ន័យ</string>
+    <string name="message_loading">ស្វែងរកទិន្ន័យ...</string>
 </resources>

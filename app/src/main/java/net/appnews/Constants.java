@@ -5,7 +5,7 @@ package net.appnews;
  */
 
 public class Constants {
-    public static final String API_YOUTUBE = "AIzaSyAZBbI4KJFQazdosNTwe3QtN6aKnVngWb8";
+    public static final String API_YOUTUBE = "AIzaSyBrd6QrH6kWG-1wvbKxvtWCreCf4_d39Aw";
     public static final String NEWS_DETAIL = "news_detail";
     public static final int REQUEST_CODE_NEWS_DETAIL = 1;
 

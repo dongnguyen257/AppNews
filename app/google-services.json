@@ -1,27 +1,27 @@
 {
   "project_info": {
-    "project_number": "378022411857",
-    "firebase_url": "https://apptvfb.firebaseio.com",
-    "project_id": "apptvfb",
-    "storage_bucket": "apptvfb.appspot.com"
+    "project_number": "785695524157",
+    "firebase_url": "https://appnewscampuchia.firebaseio.com",
+    "project_id": "appnewscampuchia",
+    "storage_bucket": "appnewscampuchia.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:378022411857:android:974b61ba42a0227e",
+        "mobilesdk_app_id": "1:785695524157:android:974b61ba42a0227e",
         "android_client_info": {
           "package_name": "net.appnews"
         }
       },
       "oauth_client": [
         {
-          "client_id": "378022411857-1dgvc225mn0vi4st2qm6tlc3jh8fttk2.apps.googleusercontent.com",
+          "client_id": "785695524157-m9kebacem6cfv08a53qdvpclv6d9trrp.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDyJiAeEqc3jqAuCw7HJD5QCWkCTNPvcYQ"
+          "current_key": "AIzaSyC8R7hLUYE6K9xKROmoUeHOMuVez3rb6Rs"
         }
       ],
       "services": {

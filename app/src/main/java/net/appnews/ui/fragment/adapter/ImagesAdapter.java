@@ -7,12 +7,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+import com.squareup.picasso.Picasso;
+
 import net.appnews.R;
-import net.appnews.data.entities.NewsItem;
 import net.appnews.ui.base.BaseAdapter;
 import net.appnews.ui.base.BaseHolder;
-
-import java.util.List;
 
 import butterknife.BindView;
 
@@ -20,14 +19,11 @@ import butterknife.BindView;
  * Created by DongNguyen on 10/24/16.
  */
 
-public class ImagesAdapter extends BaseAdapter<NewsItem.Results, ImagesAdapter.NewsHolder> {
-    private NewsFragmentAdapter.NewsDetailListener listener;
-    private List<String> listUrlImages;
-    public static int HEADER_SIZE;
+public class ImagesAdapter extends BaseAdapter<String, ImagesAdapter.NewsHolder> {
+    ImagesListener mImagesListener;
 
-    public ImagesAdapter(@NonNull LayoutInflater inflater, List<String> listUrlImages) {
+    public ImagesAdapter(@NonNull LayoutInflater inflater) {
         super(inflater);
-        this.listUrlImages = listUrlImages;
     }
 
     @Override
@@ -35,9 +31,13 @@ public class ImagesAdapter extends BaseAdapter<NewsItem.Results, ImagesAdapter.N
         return new ImagesAdapter.NewsHolder(inflater.inflate(R.layout.detail_images, parent, false));
     }
 
-    class NewsHolder extends BaseHolder<List<String>> {
+    public interface ImagesListener {
+        void showImage(String url, ImageView imageView);
+    }
+
+    class NewsHolder extends BaseHolder<String> {
         Context mContext;
-        @BindView(R.id.tvTitle)
+        @BindView(R.id.detailNewsImage)
         ImageView detailNewsImage;
 
         public NewsHolder(View itemView) {
@@ -46,9 +46,13 @@ public class ImagesAdapter extends BaseAdapter<NewsItem.Results, ImagesAdapter.N
         }
 
         @Override
-        public void bind(List<String> data, int position) {
+        public void bind(String data, int position) {
             if (data != null){
-
+//                ImageWorker.displayImage(mContext, detailNewsImage, progressBarImage, "https://lh4.googleusercontent.com/--dq8niRp7W4/URquVgmXvgI/AAAAAAAAAbs/-gnuLQfNnBA/s1024/A%252520Song%252520of%252520Ice%252520and%252520Fire.jpg");
+                Picasso.with(mContext).load(data)
+                        .placeholder(R.drawable.banerfull)
+                        .error(R.drawable.banerfull)
+                        .fit().centerCrop().into(detailNewsImage);
             }
         }
     }

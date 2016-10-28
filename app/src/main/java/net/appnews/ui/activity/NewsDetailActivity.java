@@ -3,6 +3,7 @@ package net.appnews.ui.activity;
 import android.content.Context;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
+import android.support.v7.widget.RecyclerView;
 import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
@@ -19,10 +20,12 @@ import net.appnews.R;
 import net.appnews.data.entities.NewsItem;
 import net.appnews.support.image.ImageWorker;
 import net.appnews.ui.base.BaseActivity;
+import net.appnews.ui.fragment.adapter.ImagesAdapter;
 import net.appnews.ui.media.YoutubeHelper;
 import net.appnews.utils.Utils;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -44,10 +47,12 @@ public class NewsDetailActivity extends BaseActivity implements NewsDetailPresen
     TextView tvDatePost;
     @BindView(R.id.tvContent)
     TextView tvContent;
+    @BindView(R.id.recyclerImages)
+    RecyclerView recyclerImages;
 
-    private NewsItem.Results newsDetail;
     private NewsDetailPresent mNewsDetailPresent;
     private ArrayList<View> viewList;
+    private ImagesAdapter imagesAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,7 +63,6 @@ public class NewsDetailActivity extends BaseActivity implements NewsDetailPresen
         mNewsDetailPresent = new NewsDetailPresent();
         mNewsDetailPresent.bindView(this);
         mNewsDetailPresent.getNewsDetail(getIntent());
-
     }
 
     @Override
@@ -94,7 +98,7 @@ public class NewsDetailActivity extends BaseActivity implements NewsDetailPresen
         tvDatePost.setText(Utils.getTimeZone(newsDetail.created_at));
         wvContent.getSettings().setJavaScriptEnabled(true);
         wvContent.loadDataWithBaseURL(null, newsDetail.content, "text/html", "utf-8", null);
-
+//        setViewImages(newsDetail.images);
         if (!newsDetail.video.isEmpty()){
             setViewYoutube(splitYoutube(newsDetail.video));
         }else {
@@ -109,12 +113,12 @@ public class NewsDetailActivity extends BaseActivity implements NewsDetailPresen
         scrollNews.smoothScrollTo(0, 0);
     }
 
-    public void setViewImages(){
-        for (int i = 0; i < 3; i++){
+    public void setViewImages(List<String> listImages){
+        for (int i = 0; i < listImages.size(); i++){
             View imageViewContainer = LayoutInflater.from(this).inflate(R.layout.detail_images, null);
             ImageView img = (ImageView) imageViewContainer.findViewById(R.id.detailNewsImage);
             ProgressBar progressBarImage = (ProgressBar) imageViewContainer.findViewById(R.id.progressBarImage);
-            ImageWorker.displayImage(this, img, progressBarImage, "https://lh4.googleusercontent.com/--dq8niRp7W4/URquVgmXvgI/AAAAAAAAAbs/-gnuLQfNnBA/s1024/A%252520Song%252520of%252520Ice%252520and%252520Fire.jpg");
+            ImageWorker.displayImage(this, img, progressBarImage, "https://tvfb-app.herokuapp.com" + listImages.get(i));
             viewList.add(imageViewContainer);
             llListImages.addView(imageViewContainer);
         }

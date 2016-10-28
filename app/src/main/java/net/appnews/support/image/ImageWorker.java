@@ -427,7 +427,7 @@ public class ImageWorker {
         Picasso.with(context).load(path)
                 .placeholder(R.color.colorAccent)
                 .error(R.drawable.banerfull)
-                .fit().centerCrop()
+                .fit().centerInside()
                 .into(imageView, new PicassoListener(imageView, progressBar));
     }
 }

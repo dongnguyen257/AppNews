@@ -22,7 +22,7 @@ public class NewsItem {
         public String title;
         public String slug;
         public String content;
-        public String image;
+        public List<String> images;
         public String video;
         public String created_at;
     }

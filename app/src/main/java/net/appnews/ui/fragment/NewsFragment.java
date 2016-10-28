@@ -41,6 +41,8 @@ public class NewsFragment extends BaseFragment implements NewsFragmentPresenter.
     SwipeRefreshLayout swipeContainer;
     @BindView(R.id.offNetwork)
     LinearLayout offNetwork;
+    @BindView(R.id.offNotFound)
+    LinearLayout offNotFound;
 
     private ProgressDialog progressDialog;;
     private int typeNews;
@@ -111,7 +113,7 @@ public class NewsFragment extends BaseFragment implements NewsFragmentPresenter.
         hideProgressDialog();
         progressDialog = new ProgressDialog(getActivity());
         progressDialog.setCancelable(false);
-        progressDialog.setMessage("Loading... Please Wait");
+        progressDialog.setMessage(getResources().getString(R.string.message_loading));
         progressDialog.show();
     }
 
@@ -145,6 +147,11 @@ public class NewsFragment extends BaseFragment implements NewsFragmentPresenter.
             }else {
                 mEndlessRecyclerViewAdapter.onDataReady(false);
             }
+        }
+        if (newsItem.results.size() > 0){
+            offNotFound.setVisibility(View.GONE);
+        }else {
+            offNotFound.setVisibility(View.VISIBLE);
         }
     }
 
