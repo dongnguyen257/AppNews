@@ -2,382 +2,742 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.6.1/jars/classes.jar"
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="4a36600281a648769411ef642c331851732bf29e">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.6.1_dd05e99aade6b661294340fd9f0d6c0f18fef96d/classes.dex" />
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_761f125fb006d11e71a0b6b1ba1dba9b8e2f96ba.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="c42bcc720a6c3d1648ecd7e3588da1e11980e280">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a91955d65aa9321bd9ee990a9821abed356eaf1d/classes.dex" />
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.2.1_d1471ec388c741a0765db5a5c5061a3e35659896.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.6.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_39a2f01ae3e53eca8103ea4ff5c750a6a22e64bc/classes.dex" />
+        sha1="a1c351dc10b92d638da57f3a6513f87cfbdc9f83">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-9.6.1_a3668b8cf5484735a9633cad1fe98db7abd9aa51.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-annotations-8.4.0_31eb1ac07aba740882842646159f0d7c21dd5eb7/classes.dex" />
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_9846860ec953b99f833058db5c4107f2e3bf68f5.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="0efd1b44f47c134fb245914a1d54a55adbfc2f8d">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.6.1_8c1704666887c3e4b66951a0f52f22a356d93146/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.9.0_8cef8a87db98396277df1d86c1ffcd8632557e2d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_5f9f048e9be10738266bef089b1e01c571e28f45/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_df0c958266d8fff97916d7aa312df4b8ae66af79/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_5e645145baaf3ea5573e43961054f863a51b5143/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.6/2586312cd2b8a511e4c6236736f5a039fc0f2273/rxjava-1.1.6.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/rxjava-1.1.6_4587c6fc62d3bceebb14141ec37e412f39600009/classes.dex" />
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/rxjava-1.1.6_4587c6fc62d3bceebb14141ec37e412f39600009.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.1_57d367aefa9691ca18e87dd4ba40f33e68c237f3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.6.1_3a8ed1318679b9dc0f79bc345efd283b767a172c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_bed893c0edf9253910c563a7b1ffa1c61900e4fb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_2ffac2cf7463e95bdd4649d815512abf214a1fec/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.2"
         sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_5adaf92bb8887293b44534b0731615c7d0445ca3/classes.dex" />
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_584a9443d0fec61d6b529a6748c4b3214a1d1edd.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="1e14ebe1cda8491f152083e752ca5bf73cd37bff">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-9.6.1_92260ecc448460f1360847d74269b4e981d612f1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_71e0fcee7ca4846d37afa7e508de08e8d703510c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4a36600281a648769411ef642c331851732bf29e">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.6.1_5fa52ac99273b21f8f1f28fd139f25920cfc2866.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_cef46f2b2a1caa1ffcb6ae45fb7237acc9e0dbcf/classes.dex" />
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_4dcfb0a6a23599343cc568f95d698784ca6bbbe1.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.1.0/693eddc23e87ab13f9cf5001707ce8e7e1d1ff01/adapter-rxjava-2.1.0.jar"
+        is-multidex="false"
+        jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/gson-2.7_627232f45adcbaf1a9825f85dfb95b16a5b51692.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="693eddc23e87ab13f9cf5001707ce8e7e1d1ff01">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/adapter-rxjava-2.1.0_a2c05a4aacfcca619eab5927cbffa0f675274fe1/classes.dex" />
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_ae22cfda7ca2c10434cd34de866ed27062cfe735.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/io.reactivex-rxandroid-1.2.1_af5f6a7ff7c49927dfe7fb197f32fb535d6f08b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="56163a3d570f5ad2287fee858373bdcc03692aa8">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/instant-run_1cc6c006b818bb53ad633f3f8a90aa5871a85307.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_6970cc543bb0d0256d16e5bda1a4f0d6fcd52754.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.4.1/381fc1096ba65040d8e80ea43b2e1d9bad02345e/logging-interceptor-3.4.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="381fc1096ba65040d8e80ea43b2e1d9bad02345e">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/logging-interceptor-3.4.1_08ec7cc557e90e05d22e881855aeb30453503911/classes.dex" />
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/logging-interceptor-3.4.1_08ec7cc557e90e05d22e881855aeb30453503911.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        is-multidex="false"
+        jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_1cc42390cce46723802a2cdaec044be21defd13b/classes.dex" />
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.4.0_31eb1ac07aba740882842646159f0d7c21dd5eb7.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_4dcfb0a6a23599343cc568f95d698784ca6bbbe1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/it.sephiroth.android.library.imagezoom/imagezoom/2.2.5/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="406557a6f4369568e5515f8a3c66c97b23f21534">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/it.sephiroth.android.library.imagezoom-imagezoom-2.2.5_25b08d5e966f1abbc2049cb38bc0b18707346f62.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-24.2.1_b0294fd17d2522f40ffd129ff623fd6e73d17ed2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_71e0fcee7ca4846d37afa7e508de08e8d703510c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_a44640b5695655a6d17b4be3c6e8b7e5c8612822.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.1.0/693eddc23e87ab13f9cf5001707ce8e7e1d1ff01/adapter-rxjava-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="693eddc23e87ab13f9cf5001707ce8e7e1d1ff01">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/adapter-rxjava-2.1.0_a2c05a4aacfcca619eab5927cbffa0f675274fe1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="80dd8bea08bc5fe10b10a3243b8279c856ccc690">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-messaging-9.6.1_d087beee421433a7ce34191d559d67c63558a36c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.4.0_61f72160989d8a3106364e6ab1fb85c9d880cae6.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/MAC/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_64fcaf965041d39acdaa6b293e04eb8f8bdcde0a/classes.dex" />
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_64fcaf965041d39acdaa6b293e04eb8f8bdcde0a.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.6.1/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="a1c351dc10b92d638da57f3a6513f87cfbdc9f83">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.6.1_0fe36f110686dee0e265689a38e1518dcb827f79/classes.dex" />
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_c3a0165ce7f0ff0eae32d4ade69274d3d9c7c872.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_f0b77d02bf0436f5957780ce1691964e073d4613/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.2"
         sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.1_f1b0ad3a899070f840c3d2ef409f1d1c6cd17ee1/classes.dex" />
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.1_d32da1932b2d24792eb736dbb0aed6695b4a6984.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_e69c5cde6b4a1bb5e591821dacd6ed4e83708dc6/classes.dex" />
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.4.0_31eb1ac07aba740882842646159f0d7c21dd5eb7.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.2.1/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.reactivex-rxandroid-1.2.1_79a454c58dbc4a9b26b51441c1cb4e879449055c/classes.dex" />
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_ae22cfda7ca2c10434cd34de866ed27062cfe735.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_d0cd24523109c702129cd9be0be4abaa0d77e9e3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_cd54d205353c1ef32918b99f913fba4d0f50ae69/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.jakewharton-butterknife-8.4.0_68ee644ebdcdcb3dcd9b388f8fb7c0841e8a429b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/org.parceler/parceler-api/1.1.5/23114b381811fd7c8e7aeeef4b845453c4a16a1d/parceler-api-1.1.5.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="23114b381811fd7c8e7aeeef4b845453c4a16a1d">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/parceler-api-1.1.5_7c7e52360e37d7751faefce6daadeff077046912/classes.dex" />
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/parceler-api-1.1.5_7c7e52360e37d7751faefce6daadeff077046912.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.6.1/jars/classes.jar"
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.6.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="1ef72e72bc0d05602c366582afa9439f58bb31d6">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.6.1_f7220ebb964c76d87a4ff3de532e1ad9c37d8ba1/classes.dex" />
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-9.6.1_439ee8578c95c701e9ab17a414e757e7fed2d82f.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        is-multidex="false"
+        jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.6/2586312cd2b8a511e4c6236736f5a039fc0f2273/rxjava-1.1.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/rxjava-1.1.6_4587c6fc62d3bceebb14141ec37e412f39600009.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_627232f45adcbaf1a9825f85dfb95b16a5b51692/classes.dex" />
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_240a99d6ca30286ebf5437f6b6038c3b56bdae9a.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/it.sephiroth.android.library.imagezoom/imagezoom/2.2.5/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="406557a6f4369568e5515f8a3c66c97b23f21534">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/it.sephiroth.android.library.imagezoom-imagezoom-2.2.5_6a9f9b080a62b6aed948a92ac03644cd1c831e6c/classes.dex" />
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_a4399f562278c3d6751fdd3fffd4e7e31118cd9d.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_e0f473b40a37f097106185e3fef5253b69b1e922/classes.dex" />
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.2.1_d1471ec388c741a0765db5a5c5061a3e35659896.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_be434c9cdd865293da5ed58f56fa28ff62178ef9/classes.dex" />
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/retrofit-2.1.0_2ffac2cf7463e95bdd4649d815512abf214a1fec.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="1e14ebe1cda8491f152083e752ca5bf73cd37bff">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.6.1_facae5ecc4eb73200209f534d7d11d684200a900/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_2291f19a1e3f8fc17c689f023167fa5195c612da/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="a07f2803d0cdf66fa78b2a4afa3f4956ddbcd95b">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_881a86f7d1bc862427b895a8325e3af207271e0a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.1.0_e6a7865dcf586f29b845c7c891918b3602eb9552/classes.dex" />
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/converter-gson-2.1.0_e6a7865dcf586f29b845c7c891918b3602eb9552.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/libs/YouTubeAndroidPlayerApi.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/2/YouTubeAndroidPlayerApi_c6b522a1ac0f31d335d62747c178eab114b7d5d5/classes.dex" />
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_6970cc543bb0d0256d16e5bda1a4f0d6fcd52754.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.2.1/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-24.2.1_4429877c67f8e8498a182b285cd122938a1f0e08/classes.dex" />
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.4.0_61f72160989d8a3106364e6ab1fb85c9d880cae6.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="80dd8bea08bc5fe10b10a3243b8279c856ccc690">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-9.6.1_f2119bea2239c6a91f8d43eed179176ba99a2eec/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
-        <dex dex="/Users/MAC/Desktop/My Project/AppNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.4.1_c3a0165ce7f0ff0eae32d4ade69274d3d9c7c872/classes.dex" />
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_c3a0165ce7f0ff0eae32d4ade69274d3d9c7c872.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0efd1b44f47c134fb245914a1d54a55adbfc2f8d">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-9.6.1_9165bffb68eeae3a3251aa3082fd78b2640b724a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8a35bc053ae21243fee068de03231ad4b6314adc">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_33f03ca62f81f6228dd25ae04b9da24c31e52b6c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.1.0/693eddc23e87ab13f9cf5001707ce8e7e1d1ff01/adapter-rxjava-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="693eddc23e87ab13f9cf5001707ce8e7e1d1ff01">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/adapter-rxjava-2.1.0_a2c05a4aacfcca619eab5927cbffa0f675274fe1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0efd1b44f47c134fb245914a1d54a55adbfc2f8d">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-9.6.1_9165bffb68eeae3a3251aa3082fd78b2640b724a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_240a99d6ca30286ebf5437f6b6038c3b56bdae9a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_2650e2a9a26264a01937324234bad1fbeb9b3a76.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/org.parceler/parceler-api/1.1.5/23114b381811fd7c8e7aeeef4b845453c4a16a1d/parceler-api-1.1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="23114b381811fd7c8e7aeeef4b845453c4a16a1d">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/parceler-api-1.1.5_7c7e52360e37d7751faefce6daadeff077046912.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_f835389c471981e8e7db66bfc1918c9c244fa2c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_195df8eaa7477944633a3bffd10eb4021bf88a64.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_a4399f562278c3d6751fdd3fffd4e7e31118cd9d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/retrofit-2.1.0_2ffac2cf7463e95bdd4649d815512abf214a1fec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="1ef72e72bc0d05602c366582afa9439f58bb31d6">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-9.6.1_439ee8578c95c701e9ab17a414e757e7fed2d82f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_f835389c471981e8e7db66bfc1918c9c244fa2c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_2291f19a1e3f8fc17c689f023167fa5195c612da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/converter-gson-2.1.0_e6a7865dcf586f29b845c7c891918b3602eb9552.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_31d2f1b0f99ff81705a9e5f8b623725dd53fb325.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.6.1_3cd3145488d8cdb93af36582184959d4bdd8c9bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/YouTubeAndroidPlayerApi_c8db0fbe76b569115562514b40bd5dd023e1ed83.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="1e14ebe1cda8491f152083e752ca5bf73cd37bff">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-9.6.1_92260ecc448460f1360847d74269b4e981d612f1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.1_d32da1932b2d24792eb736dbb0aed6695b4a6984.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_584a9443d0fec61d6b529a6748c4b3214a1d1edd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_195df8eaa7477944633a3bffd10eb4021bf88a64.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a1c351dc10b92d638da57f3a6513f87cfbdc9f83">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-9.6.1_a3668b8cf5484735a9633cad1fe98db7abd9aa51.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_9846860ec953b99f833058db5c4107f2e3bf68f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_2650e2a9a26264a01937324234bad1fbeb9b3a76.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4a36600281a648769411ef642c331851732bf29e">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.6.1_5fa52ac99273b21f8f1f28fd139f25920cfc2866.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/okio-1.9.0_8cef8a87db98396277df1d86c1ffcd8632557e2d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/gson-2.7_627232f45adcbaf1a9825f85dfb95b16a5b51692.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_761f125fb006d11e71a0b6b1ba1dba9b8e2f96ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-24.2.1_b0294fd17d2522f40ffd129ff623fd6e73d17ed2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/io.reactivex-rxandroid-1.2.1_af5f6a7ff7c49927dfe7fb197f32fb535d6f08b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.4.1/381fc1096ba65040d8e80ea43b2e1d9bad02345e/logging-interceptor-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="381fc1096ba65040d8e80ea43b2e1d9bad02345e">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/logging-interceptor-3.4.1_08ec7cc557e90e05d22e881855aeb30453503911.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/okio-1.9.0_8cef8a87db98396277df1d86c1ffcd8632557e2d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_2291f19a1e3f8fc17c689f023167fa5195c612da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="80dd8bea08bc5fe10b10a3243b8279c856ccc690">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-messaging-9.6.1_d087beee421433a7ce34191d559d67c63558a36c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/YouTubeAndroidPlayerApi_c8db0fbe76b569115562514b40bd5dd023e1ed83.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_a44640b5695655a6d17b4be3c6e8b7e5c8612822.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_64fcaf965041d39acdaa6b293e04eb8f8bdcde0a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/it.sephiroth.android.library.imagezoom/imagezoom/2.2.5/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="406557a6f4369568e5515f8a3c66c97b23f21534">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/it.sephiroth.android.library.imagezoom-imagezoom-2.2.5_25b08d5e966f1abbc2049cb38bc0b18707346f62.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.6.1_3cd3145488d8cdb93af36582184959d4bdd8c9bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/MAC/Desktop/My Project/TVFB/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_31d2f1b0f99ff81705a9e5f8b623725dd53fb325.jar" />
     </item>
 
 </items>

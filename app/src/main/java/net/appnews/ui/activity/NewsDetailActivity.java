@@ -98,7 +98,7 @@ public class NewsDetailActivity extends BaseActivity implements NewsDetailPresen
         tvDatePost.setText(Utils.getTimeZone(newsDetail.created_at));
         wvContent.getSettings().setJavaScriptEnabled(true);
         wvContent.loadDataWithBaseURL(null, newsDetail.content, "text/html", "utf-8", null);
-//        setViewImages(newsDetail.images);
+        setViewImages(newsDetail.images);
         if (!newsDetail.video.isEmpty()){
             setViewYoutube(splitYoutube(newsDetail.video));
         }else {
@@ -118,7 +118,7 @@ public class NewsDetailActivity extends BaseActivity implements NewsDetailPresen
             View imageViewContainer = LayoutInflater.from(this).inflate(R.layout.detail_images, null);
             ImageView img = (ImageView) imageViewContainer.findViewById(R.id.detailNewsImage);
             ProgressBar progressBarImage = (ProgressBar) imageViewContainer.findViewById(R.id.progressBarImage);
-            ImageWorker.displayImage(this, img, progressBarImage, "https://tvfb-app.herokuapp.com" + listImages.get(i));
+            ImageWorker.displayImage(this, img, progressBarImage, Constants.API_BASE_URL + listImages.get(i));
             viewList.add(imageViewContainer);
             llListImages.addView(imageViewContainer);
         }

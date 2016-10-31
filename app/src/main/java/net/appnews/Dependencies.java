@@ -44,7 +44,7 @@ public class Dependencies extends BaseDependencies{
     private ServerAPI provideRestApi(@NonNull OkHttpClient okHttpClient) {
         Gson gson = new GsonBuilder().excludeFieldsWithModifiers(Modifier.FINAL, Modifier.TRANSIENT, Modifier.STATIC).create();
         final Retrofit.Builder builder = new Retrofit.Builder()
-                .baseUrl("https://tvfb-app.herokuapp.com")
+                .baseUrl(Constants.API_BASE_URL)
                 .client(okHttpClient)
                 .addConverterFactory(GsonConverterFactory.create(gson))
                 .addCallAdapterFactory(RxJavaCallAdapterFactory.create());

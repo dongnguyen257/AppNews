@@ -23,6 +23,7 @@
                 android:textStyle="bold"
                 android:textSize="16sp"
                 android:lines="3"
+                android:fontFamily="sans-serif"
                 android:ellipsize="end"
                 android:textColor="@color/colorRed600"/>
 
@@ -33,6 +34,7 @@
                 android:layout_height="wrap_content"
                 android:padding="5dp"
                 android:lines="1"
+                android:fontFamily="sans-serif"
                 android:ellipsize="end"
                 android:text="Content"
                 android:textSize="14sp"
@@ -61,6 +63,7 @@
                     android:layout_height="wrap_content"
                     android:layout_toRightOf="@+id/logo"
                     android:layout_marginLeft="10sp"
+                    android:fontFamily="sans-serif"
                     android:layout_centerVertical="true"
                     android:text="Date post : 15/10/2016"/>
 
