@@ -423,7 +423,6 @@ public class ImageWorker {
         if (progressBar != null) {
             progressBar.setVisibility(View.VISIBLE);
         }
-
         Picasso.with(context).load(path)
                 .placeholder(R.color.colorAccent)
                 .error(R.drawable.banerfull)

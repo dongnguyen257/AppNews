@@ -14,7 +14,6 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.LinearLayout;
-import android.widget.Toast;
 
 import net.appnews.R;
 import net.appnews.data.entities.NewsItem;
@@ -157,7 +156,7 @@ public class NewsFragment extends BaseFragment implements NewsFragmentPresenter.
 
     @Override
     public void showMessageError() {
-        Toast.makeText(getActivity(), "An error occurred.", Toast.LENGTH_SHORT).show();
+//        Toast.makeText(getActivity(), "An error occurred.", Toast.LENGTH_SHORT).show();
         offNetwork.setVisibility(View.VISIBLE);
     }
 

@@ -10,6 +10,6 @@ public class AppNews extends BaseApplication {
     @Override
     public void onCreate() {
         super.onCreate();
-        Dependencies.getsInstance().init();
+        Dependencies.getsInstance().init(this);
     }
 }

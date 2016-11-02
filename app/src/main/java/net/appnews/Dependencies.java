@@ -1,5 +1,6 @@
 package net.appnews;
 
+import android.content.Context;
 import android.support.annotation.NonNull;
 
 import com.google.gson.Gson;
@@ -23,6 +24,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class Dependencies extends BaseDependencies{
     private static Dependencies sInstance;
     public static ServerAPI serverAPI;
+    private Context mContext;
 
     public static Dependencies getsInstance() {
         if (sInstance == null)
@@ -30,7 +32,8 @@ public class Dependencies extends BaseDependencies{
         return sInstance;
     }
 
-    public void init() {
+    public void init(Context mContext) {
+        this.mContext = mContext;
         if (serverAPI == null) {
             OkHttpClient okHttpClient = provideOkHttpClientDefault(provideHttpLoggingInterceptor());
             serverAPI = provideRestApi(okHttpClient);
