@@ -14,6 +14,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 
 import net.appnews.R;
 import net.appnews.data.entities.NewsItem;
@@ -26,6 +27,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;
+import butterknife.OnClick;
 
 import static android.support.v7.widget.LinearLayoutManager.VERTICAL;
 
@@ -42,6 +44,8 @@ public class NewsFragment extends BaseFragment implements NewsFragmentPresenter.
     LinearLayout offNetwork;
     @BindView(R.id.offNotFound)
     LinearLayout offNotFound;
+    @BindView(R.id.btnGoToTop)
+    RelativeLayout btnGoToTop;
 
     private ProgressDialog progressDialog;;
     private int typeNews;
@@ -51,6 +55,7 @@ public class NewsFragment extends BaseFragment implements NewsFragmentPresenter.
     private List<NewsItem.Results> listNews;
     private boolean isRefresh = false;
     private int pages = 1;
+    private int overallYScroll = 0;
 
     public static NewsFragment newInstance(Context context, int typeNews) {
         NewsFragment mNewsOneFragment = new NewsFragment();
@@ -76,6 +81,33 @@ public class NewsFragment extends BaseFragment implements NewsFragmentPresenter.
         recyclerNews.setLayoutManager(new LinearLayoutManager(getContext(), VERTICAL, false));
         swipeContainer.setOnRefreshListener(this);
         swipeContainer.setColorSchemeResources(R.color.colorRed600);
+        recyclerNews.addOnScrollListener(new RecyclerView.OnScrollListener() {
+            @Override
+            public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
+                super.onScrolled(recyclerView, dx, dy);
+                overallYScroll = overallYScroll + dy;
+                if (overallYScroll < 100){
+                    btnGoToTop.setVisibility(View.GONE);
+                    hideGoToTop();
+                }else {
+                    btnGoToTop.setVisibility(View.VISIBLE);
+                    if (dy > 0){
+                        hideGoToTop();
+                    }else {
+                        showGoToTop();
+                    }
+                }
+            }
+        });
+    }
+
+    @OnClick({R.id.btnGoToTop})
+    public void onClick(View view){
+        switch (view.getId()){
+            case R.id.btnGoToTop:
+                recyclerNews.smoothScrollToPosition(0);
+                break;
+        }
     }
 
     @Override
@@ -194,6 +226,14 @@ public class NewsFragment extends BaseFragment implements NewsFragmentPresenter.
         }else {
             mNewsOneFragmentPresenter.getCategoriesNews(typeNews);
         }
+    }
+
+    public void hideGoToTop(){
+        btnGoToTop.animate().translationY(400).setDuration(600).start();
+    }
+
+    public void showGoToTop(){
+        btnGoToTop.animate().translationY(0).setDuration(600).start();
     }
 }
 
