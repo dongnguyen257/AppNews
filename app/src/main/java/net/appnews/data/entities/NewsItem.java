@@ -8,7 +8,7 @@ import java.util.List;
  * Created by DongNguyen on 10/15/16.
  */
 @Parcel
-public class NewsItem {
+public class NewsItem extends BaseResponse{
     public int count;
     public String next;
     public String previous;

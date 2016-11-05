@@ -19,6 +19,10 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -111,6 +115,50 @@ public class FileUtil {
         File imageFilePath = new File(diskCacheDir.getPath() + "/"  + nameFile.replaceAll(" ", "_") + ".png");
 
         return imageFilePath;
+    }
+
+    public static boolean downloadAndSaveFile(String fileUrl, File file ) {
+        HttpURLConnection urlConnection = null;
+        OutputStream out = null;
+        InputStream in = null;
+
+        try {
+            final URL url = new URL(fileUrl);
+            urlConnection = (HttpURLConnection) url.openConnection();
+
+            byte[] buff = new byte[4096];
+            long downloaded = 0;
+            long target = urlConnection.getContentLength();
+
+            in = urlConnection.getInputStream();
+            out = new FileOutputStream(file);
+
+            while (true) {
+                int read = in.read(buff);
+                if (read == -1 || downloaded > target) {
+                    break;
+                }
+                out.write(buff, 0, read);
+                //write buff
+                downloaded += read;
+            }
+            out.flush();
+        } catch (final IOException e) {
+            return false;
+        } finally {
+            if (urlConnection != null) {
+                urlConnection.disconnect();
+            }
+            try {
+                if (out != null) {
+                    out.close();
+                }
+                if (in != null) {
+                    in.close();
+                }
+            } catch (final IOException e) {}
+        }
+        return true;
     }
 
     public static String getImageToUpload(Context context, String path) {

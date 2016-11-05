@@ -1,10 +1,15 @@
 package net.appnews.ui.fragment;
 
 import net.appnews.Dependencies;
+import net.appnews.data.DataMapper;
 import net.appnews.data.ServerAPI;
+import net.appnews.data.database.NewsDto;
 import net.appnews.data.entities.NewsItem;
 import net.appnews.ui.base.MvpView;
 import net.appnews.ui.base.Presenter;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
@@ -19,8 +24,6 @@ public class NewsFragmentPresenter extends Presenter<NewsFragmentPresenter.View>
         serverAPI = Dependencies.getServerAPI();
     }
     public interface View extends MvpView {
-        void showLoadingView();
-
         void hideRefreshView();
 
         void showProgressDialog();
@@ -29,18 +32,22 @@ public class NewsFragmentPresenter extends Presenter<NewsFragmentPresenter.View>
 
         void showCompleteData(NewsItem newsItem, boolean isNext);
 
+        void showCompleteDataOff(NewsItem newsItem, boolean isNext);
+
         void showMessageError();
-
-        void showEmptyNews(boolean isShowing);
-
-        void showNews();
-
-        void goToNewsDetail();
     }
 
     public void getListNews(int typeNews){
         if (typeNews == 0){
             getNews();
+        }else {
+            getCategoriesNews(typeNews);
+        }
+    }
+
+    public void getListNewsOff(int typeNews){
+        if (typeNews == 0){
+            getNewsOff();
         }else {
             getCategoriesNews(typeNews);
         }
@@ -56,8 +63,10 @@ public class NewsFragmentPresenter extends Presenter<NewsFragmentPresenter.View>
                     .subscribe(newsItemResponse -> {
                         if (newsItemResponse.next != null){
                             view.showCompleteData(newsItemResponse, true);
+                            DataMapper.parseNews(newsItemResponse);
                         }else {
                             view.showCompleteData(newsItemResponse, false);
+                            DataMapper.parseNews(newsItemResponse);
                         }
                         view.hideProgressDialog();
                     }, throwable -> {
@@ -106,10 +115,44 @@ public class NewsFragmentPresenter extends Presenter<NewsFragmentPresenter.View>
         }
     }
 
-    public void getMoreNewsCategory(int pages, int typeNews){
+    public void getNewsOff(){
         final View view = view();
         if (view != null){
-            serverAPI.getCategoryNewsCategory(typeNews, pages)
+            List<NewsDto> listNewsDtos = new ArrayList<>();
+            for (NewsDto newsDto : NewsDto.all()) {
+                if (newsDto != null) {
+                    listNewsDtos.add(newsDto);
+                }
+            }
+
+        }
+    }
+
+    public void getCategoriesNewsOff(int typeNews){
+        final View view = view();
+        if (view != null){
+            view.showProgressDialog();
+            serverAPI.getCategoryNews(typeNews)
+                    .subscribeOn(Schedulers.io())
+                    .observeOn(AndroidSchedulers.mainThread())
+                    .subscribe(newsItemResponse -> {
+                        if (newsItemResponse.next != null){
+                            view.showCompleteData(newsItemResponse, true);
+                        }else {
+                            view.showCompleteData(newsItemResponse, false);
+                        }
+                        view.hideProgressDialog();
+                    }, throwable -> {
+                        view.hideProgressDialog();
+                        view.showMessageError();
+                    });
+        }
+    }
+
+    public void getMoreNewsOff(int pages){
+        final View view = view();
+        if (view != null){
+            serverAPI.getMoreNews(pages)
                     .subscribeOn(Schedulers.io())
                     .observeOn(AndroidSchedulers.mainThread())
                     .subscribe(newsItemResponse -> {

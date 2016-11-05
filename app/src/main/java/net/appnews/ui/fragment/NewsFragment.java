@@ -21,6 +21,7 @@ import net.appnews.ui.base.BaseFragment;
 import net.appnews.ui.fragment.adapter.EndlessRecyclerViewAdapter;
 import net.appnews.ui.fragment.adapter.NewsFragmentAdapter;
 import net.appnews.utils.Navigator;
+import net.appnews.utils.Utils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -63,8 +64,11 @@ public class NewsFragment extends BaseFragment implements NewsFragmentPresenter.
         super.onViewCreated(view, savedInstanceState);
         mNewsOneFragmentPresenter = new NewsFragmentPresenter();
         mNewsOneFragmentPresenter.bindView(this);
-        mNewsOneFragmentPresenter.getListNews(typeNews);
-
+        if (Utils.isOnline(getActivity())){
+            mNewsOneFragmentPresenter.getListNews(typeNews);
+        }else {
+            mNewsOneFragmentPresenter.getListNewsOff(typeNews);
+        }
         setupRecyclerView();
     }
 
@@ -86,11 +90,6 @@ public class NewsFragment extends BaseFragment implements NewsFragmentPresenter.
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-    }
-
-    @Override
-    public void showLoadingView() {
-
     }
 
     @Override
@@ -155,24 +154,14 @@ public class NewsFragment extends BaseFragment implements NewsFragmentPresenter.
     }
 
     @Override
+    public void showCompleteDataOff(NewsItem newsItem, boolean isNext) {
+
+    }
+
+    @Override
     public void showMessageError() {
 //        Toast.makeText(getActivity(), "An error occurred.", Toast.LENGTH_SHORT).show();
         offNetwork.setVisibility(View.VISIBLE);
-    }
-
-    @Override
-    public void showEmptyNews(boolean isShowing) {
-
-    }
-
-    @Override
-    public void showNews() {
-
-    }
-
-    @Override
-    public void goToNewsDetail() {
-
     }
 
     @Override
@@ -184,7 +173,11 @@ public class NewsFragment extends BaseFragment implements NewsFragmentPresenter.
     public void onRefresh() {
         isRefresh = true;
         listNews = new ArrayList<>();
-        mNewsOneFragmentPresenter.getListNews(typeNews);
+        if (Utils.isOnline(getActivity())){
+            mNewsOneFragmentPresenter.getListNews(typeNews);
+        }else {
+            mNewsOneFragmentPresenter.getListNewsOff(typeNews);
+        }
     }
 
     @Override
